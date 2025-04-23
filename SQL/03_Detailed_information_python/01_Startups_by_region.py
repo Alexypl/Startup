@@ -1,3 +1,5 @@
+
+
 startups_by_region = startup.groupby('Region')[['StartupName']].count().reset_index()\
 .sort_values(by = 'StartupName', ascending = False)
 
