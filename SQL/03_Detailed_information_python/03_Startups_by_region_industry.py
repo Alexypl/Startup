@@ -6,5 +6,4 @@ sns.barplot(data = startups_by_region_industry, x = 'Region', y = 'StartupName',
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 plt.xticks(rotation = 45)
 plt.yticks(ticks = [i for i in range(0, 21, 5)], labels=[i for i in range(0, 21, 5)])
-plt.savefig("03_startups_by_region_industry.png", bbox_inches='tight')
 plt.show()
